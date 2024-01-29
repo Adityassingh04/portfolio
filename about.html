@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Aditya Singh</title>
+    <style>
+        body {
+            margin: 0;
+            padding-left: 0;
+            background-image: url(bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        /* linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),  */
+
+        header {
+            font-size: 30px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #2ecc71;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 18px;
+            padding: 5px;
+        }
+
+        main {
+            background-image: url('back.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex: 1;
+            padding-left: 10px;
+        }
+
+        section {
+            flex: 1;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #3498db;
+            
+        }
+        #container{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section h3 {
+            color: #3498db;
+        }
+
+        section p {
+            color: #333;
+        }
+        img {
+            width: 250px;
+            border-radius: 10px;
+            margin-top: 10px;
+            float: left;
+            height: 250px;
+            margin-right: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #34495e;
+            color: #ecf0f1;
+            /* position: absolute;
+            bottom: 0px; */
+            width: 97%;
+
+        }
+
+        nav a:hover {
+            background-color: #3cb0fd;
+            color: #fff;
+            border-radius: 5px;
+        }
+        #sports {
+        float: right;
+        margin: 0 10px 10px 0;
+        border-radius: 10px;
+        height: 250px;
+        }
+        #games{
+            float: right;
+            margin: 0 10px 10px 0;
+            border-radius: 10px;
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>Aditya Singh</header>
+    
+    <nav>
+        <a href="index.html" style="color: white; padding: 10px;">Home</a>
+        <a href="about.html" style="color: white; padding: 10px;">About Me</a>
+        <a href="#quali" style="color: white; padding: 10px;">Qualifications</a>
+        <a href="#inter" style="color: white; padding: 10px;">Internships</a>
+        <a href="/" style="color: white; padding: 10px;">Contact</a>
+    </nav>
+
+    <main>
+        <div id="container">
+            <img src="aditya.jpg" alt="Aditya Image 1">
+            <h3>About Me</h3>
+            <p>
+                Hi, I'm Aditya Singh. I am a passionate and ambitious individual with a deep interest in computer science and technology. At 19 years old, hailing from the vibrant state of Uttar Pradesh, I am currently pursuing my B.Tech in Computer Science and Engineering at Vellore Institute of Technology. My academic journey began at DPSGI in Uttar Pradesh, where I successfully completed my 10th and 12th grades, achieving remarkable scores. Besides my academic pursuits, I am an avid sports enthusiast, having represented Uttar Pradesh at the Nationals U-16 Tournament and excelled in various disciplines like basketball, cricket, and kho-kho. I also find joy in the world of video games, exploring both first-person shooters like Counter-Strike and PUBG, as well as the immersive open-world experiences offered by games like GTA. Solving puzzles and engaging with Lego constructions are among my favorite pastimes. I am constantly eager to expand my knowledge, and my journey includes valuable internships at Microsoft and Dell, where I gained practical insights into the tech industry. In addition to my academic and extracurricular pursuits, I have worked on exciting projects, including a face detector, disaster management system, and drone development. My diverse skill set includes proficiency in languages such as Python, C, C++, Java, and HTML. 
+            </p>
+            <div id="life-pics">
+                <img src="sports.jpeg" alt="sports" id="sports" >
+                <img src="videogames.jpeg" alt="video games" id="games">
+            </div>
+            <ul>
+                <h2>My hobbies are:</h2>
+                <li>Playing Sports</li>
+                <li>Playing Video games</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact Me: <a href="mailto:your.email@example.com" style="color: white; text-decoration: none;">adityasingh@gmail.com</a></p>
+        <p>&copy; Made with &#128151;</p>
+    </footer>
+</body>
+</html>
